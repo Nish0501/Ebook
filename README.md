@@ -1,16 +1,31 @@
-# ebook
+# 📚 Ebook App
 
-A new Flutter project.
+A Flutter application for reading eBooks. This app supports modern UI, smooth navigation, and essential reading features for an enjoyable book reading experience.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- Beautiful and responsive UI
+- eBook listing and search
+- PDF/EPUB reader integration
+- Dark mode support
+- Bookmark and continue reading
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter: UI Toolkit
+- Dart: Programming Language
+- Firebase
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Screenshots
+
+
+
+## 📦 Getting Started
+
+To run this project locally:
+
+```bash
+git clone https://github.com/Nish0501/Ebook.git
+cd Ebook
+flutter pub get
+flutter run
