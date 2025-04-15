@@ -1,0 +1,65 @@
+name: ebook
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.7.0
+  webview_flutter_android: ^3.13.0  # use the latest
+  webview_flutter_wkwebview: ^3.13.0
+  intl: ^0.18.0
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  shared_preferences: ^2.2.2
+  http: ^1.3.0
+  url_launcher: ^6.3.1
+  image_picker: ^1.1.2
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.17.4
+  cloud_firestore: ^4.17.5
+  firebase_storage: ^11.6.5
+  flutter_local_notifications: ^17.1.2
+  path_provider: ^2.1.2
+
+  google_sign_in: ^6.2.1  # ✅ Added Google Sign-In
+  email_validator: ^3.0.0  # ✅ Added Email Validator
+  cached_network_image: ^3.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/for_you_icon.png
+    - assets/images/explore_icon.png
+    - assets/images/library_icon.png
+    - assets/images/profile_icon.png
+    - assets/images/settings_icon.png
+    - assets/images/google.png
+    - assets/images/apple.png
+    - assets/images/facebook.png
+    - assets/images/login.png
+    - assets/images/dark_mode_icon.png
+    - assets/images/user_avatar.png
+    - assets/images/book_placeholder.png
+    - assets/images/logout_icon.png
+    - assets/images/delete_icon.png
+    - assets/images/help_icon.png
+    - assets/images/password_icon.png
+    - assets/images/user_icon.png
+    - assets/images/email_icon.png
+    - assets/images/visibility_icon.png
+    - assets/images/visibility_off.png
+    - assets/images/camera_icon.png
+    - assets/images/about_icon.png
+    - assets/images/booknest.png
